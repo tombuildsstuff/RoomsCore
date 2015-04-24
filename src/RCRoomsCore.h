@@ -1,13 +1,10 @@
 //
-//  Room.m
+//  RCRoomsCore.h
 //  RoomsCore
 //
 //  Created by Tom Harvey on 24/04/2015.
 //  Copyright (c) 2015 Tom Harvey. All rights reserved.
 //
 
-#import "Room.h"
-
-@implementation Room
-
-@end
+#include "RCRoom.h"
+#include "RCRoomsService.h"

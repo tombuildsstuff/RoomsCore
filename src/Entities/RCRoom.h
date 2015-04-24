@@ -1,5 +1,5 @@
 //
-//  Room.h
+//  RCRoom.h
 //  RoomsCore
 //
 //  Created by Tom Harvey on 24/04/2015.
@@ -8,7 +8,7 @@
 
 @import Foundation;
 
-@interface Room : NSObject
+@interface RCRoom : NSObject
 
 @property (nonatomic, readwrite) NSString* location;
 

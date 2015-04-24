@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24BF1B411AEA524F00D14AA7 /* Room.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BF1B3A1AEA524F00D14AA7 /* Room.h */; };
-		24BF1B421AEA524F00D14AA7 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BF1B3B1AEA524F00D14AA7 /* Room.m */; };
-		24BF1B431AEA524F00D14AA7 /* RoomsCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BF1B3C1AEA524F00D14AA7 /* RoomsCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24BF1B451AEA524F00D14AA7 /* RoomsService.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BF1B3F1AEA524F00D14AA7 /* RoomsService.h */; };
-		24BF1B461AEA524F00D14AA7 /* RoomsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BF1B401AEA524F00D14AA7 /* RoomsService.m */; };
+		244CA5F71AEA534B00D16799 /* RCRoom.h in Headers */ = {isa = PBXBuildFile; fileRef = 244CA5F51AEA534B00D16799 /* RCRoom.h */; };
+		244CA5F81AEA534B00D16799 /* RCRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 244CA5F61AEA534B00D16799 /* RCRoom.m */; };
+		24BF1B431AEA524F00D14AA7 /* RCRoomsCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BF1B3C1AEA524F00D14AA7 /* RCRoomsCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24BF1B451AEA524F00D14AA7 /* RCRoomsService.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BF1B3F1AEA524F00D14AA7 /* RCRoomsService.h */; };
+		24BF1B461AEA524F00D14AA7 /* RCRoomsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BF1B401AEA524F00D14AA7 /* RCRoomsService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		244CA5F51AEA534B00D16799 /* RCRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRoom.h; sourceTree = "<group>"; };
+		244CA5F61AEA534B00D16799 /* RCRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRoom.m; sourceTree = "<group>"; };
 		24BF1B101AEA4BA700D14AA7 /* libRoomsCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRoomsCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		24BF1B3A1AEA524F00D14AA7 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
-		24BF1B3B1AEA524F00D14AA7 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
-		24BF1B3C1AEA524F00D14AA7 /* RoomsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoomsCore.h; path = src/RoomsCore.h; sourceTree = "<group>"; };
-		24BF1B3F1AEA524F00D14AA7 /* RoomsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomsService.h; sourceTree = "<group>"; };
-		24BF1B401AEA524F00D14AA7 /* RoomsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomsService.m; sourceTree = "<group>"; };
+		24BF1B3C1AEA524F00D14AA7 /* RCRoomsCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCRoomsCore.h; path = src/RCRoomsCore.h; sourceTree = "<group>"; };
+		24BF1B3F1AEA524F00D14AA7 /* RCRoomsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRoomsService.h; sourceTree = "<group>"; };
+		24BF1B401AEA524F00D14AA7 /* RCRoomsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRoomsService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				24BF1B381AEA524600D14AA7 /* RoomsCore */,
-				24BF1B3C1AEA524F00D14AA7 /* RoomsCore.h */,
+				24BF1B3C1AEA524F00D14AA7 /* RCRoomsCore.h */,
 				24BF1B111AEA4BA700D14AA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,8 +75,8 @@
 		24BF1B391AEA524F00D14AA7 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				24BF1B3A1AEA524F00D14AA7 /* Room.h */,
-				24BF1B3B1AEA524F00D14AA7 /* Room.m */,
+				244CA5F51AEA534B00D16799 /* RCRoom.h */,
+				244CA5F61AEA534B00D16799 /* RCRoom.m */,
 			);
 			name = Entities;
 			path = src/Entities;
@@ -85,8 +85,8 @@
 		24BF1B3E1AEA524F00D14AA7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				24BF1B3F1AEA524F00D14AA7 /* RoomsService.h */,
-				24BF1B401AEA524F00D14AA7 /* RoomsService.m */,
+				24BF1B3F1AEA524F00D14AA7 /* RCRoomsService.h */,
+				24BF1B401AEA524F00D14AA7 /* RCRoomsService.m */,
 			);
 			name = Services;
 			path = src/Services;
@@ -99,9 +99,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BF1B431AEA524F00D14AA7 /* RoomsCore.h in Headers */,
-				24BF1B451AEA524F00D14AA7 /* RoomsService.h in Headers */,
-				24BF1B411AEA524F00D14AA7 /* Room.h in Headers */,
+				244CA5F71AEA534B00D16799 /* RCRoom.h in Headers */,
+				24BF1B431AEA524F00D14AA7 /* RCRoomsCore.h in Headers */,
+				24BF1B451AEA524F00D14AA7 /* RCRoomsService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BF1B421AEA524F00D14AA7 /* Room.m in Sources */,
-				24BF1B461AEA524F00D14AA7 /* RoomsService.m in Sources */,
+				24BF1B461AEA524F00D14AA7 /* RCRoomsService.m in Sources */,
+				244CA5F81AEA534B00D16799 /* RCRoom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

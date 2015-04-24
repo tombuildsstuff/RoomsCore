@@ -1,5 +1,5 @@
 //
-//  RoomsService.h
+//  RCRoomsService.h
 //  RoomsCore
 //
 //  Created by Tom Harvey on 24/04/2015.
@@ -8,7 +8,7 @@
 
 @import Foundation;
 
-@interface RoomsService : NSObject
+@interface RCRoomsService : NSObject
 
 -(instancetype) initWithUrl: (NSString*) url;
 

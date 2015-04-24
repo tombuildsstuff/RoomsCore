@@ -1,20 +1,20 @@
 //
-//  RoomsService.m
+//  RCRoomsService.m
 //  RoomsCore
 //
 //  Created by Tom Harvey on 24/04/2015.
 //  Copyright (c) 2015 Tom Harvey. All rights reserved.
 //
 
-#import "RoomsService.h"
+#import "RCRoomsService.h"
 
-@interface RoomsService()
+@interface RCRoomsService()
 
 @property (nonatomic, strong) NSString* apiBaseUrl;
 
 @end
 
-@implementation RoomsService
+@implementation RCRoomsService
 
 -(instancetype) initWithUrl: (NSString*) url
 {
